@@ -7,7 +7,7 @@
 <code> error: failed to push some refs to 'git@github.com:abc/abc.git'"</code> [...]
 
 - <b> Solução #1 - Melhor encontrada: </b> <i>Digitar os seguintes comandos abaixo:</i><br> 
-<code> git fetch origin master:tmp </code> ➡️ <code> git rebase tmp </code> ➡️<code> git push origin HEAD:master </code> ➡️ <code> git branch -D tmp </code>
+<code> git fetch origin master:tmp </code> ➡️<code> git rebase tmp </code> ➡️<code> git push origin HEAD:master </code> ➡️ <code> git branch -D tmp </code>
 
 - <b> Solução #2 - Cuidado! * </b> <i>Digitar o seguinte comando abaixo:</i><br>
 <code>git push origin master --force</code>
