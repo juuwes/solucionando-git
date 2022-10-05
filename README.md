@@ -6,7 +6,7 @@
 </br>
 ⚙ <i>Esse repositório está em constante atualização.</i>
 
-##
+<h2 align="center"> Comandos Básicos 🧩 </h2>
 
 - Esses dois comandos abaixo são para sua identificação no Git, esse comando só será realizado uma vez após a instalação do programa: </br>
 <code>git config --global user.name "seu nome"</code></br>
@@ -26,14 +26,14 @@
 <code>git clone git@github.com:seu-usuario/seu-repositorio.git</code><i>(esse comando cria uma cópia de um repositório já existente)</i></br>
 <code>git checkout main</code><i>(esse comando é trocar de ramificação para outra **nome da branch)</i></br>
 
-##
+<h2 align="center"> Erros e Soluções ⚠️ </h2>
 
 - <b> Erro encontrado: </b>  
 <code>! [rejected]        master -> master (fetc h first) </code> <br>
 <code> error: failed to push some refs to 'git@github.com:abc/abc.git'"</code> [...]
 
 - <b> Solução #1 - Melhor encontrada: </b> <i>Digitar os seguintes comandos abaixo:</i><br> 
-<code> git fetch origin master:tmp </code> ➡️<code> git rebase tmp </code> ➡️<code> git push origin HEAD:master </code> ➡️ <code> git branch -D tmp </code>
+<code> git fetch origin master:tmp </code> ➡️<code> git rebase tmp </code> ➡️<code> git push origin HEAD:master </code> ➡️<code> git branch -D tmp </code>
 
 - <b> Solução #2 - Cuidado! * </b> <i>Digitar o seguinte comando abaixo:</i><br>
 <code>git push origin master --force</code>
