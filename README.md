@@ -38,6 +38,6 @@
 - <b> Solução #2 - Cuidado! * </b> <i>Digitar o seguinte comando abaixo:</i><br>
 <code>git push origin master --force</code>
 
-<i> * Se alguém tiver construpido em cima de sua história original, euquanto você está <b>rebasing</b> (processo de mover ou combinar uma sequência de commits para um novo commit base), a branch no controle remoto pode avançar com seu compromisso, e cegamente empurrar com </i><b>-- force</b><i> perderá seu trabalho.</i>
+<i> * Se alguém tiver construído em cima de sua história original, euquanto você está <b>rebasing</b> (processo de mover ou combinar uma sequência de commits para um novo commit base), a branch no controle remoto pode avançar com seu compromisso, e cegamente empurrar com </i><b>-- force</b><i> perderá seu trabalho.</i>
  
 ##
