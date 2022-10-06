@@ -16,7 +16,7 @@
 <code>git init</code>    <i>(esse comando é para iniciar/criar um novo repositório Git)</i></br>
 <code>git add .</code>   <i>(esse comando é para adicionar TODOS os arquivos ao repositório)</i></br>
 <code>git commit -m "mensagem para seu commit"</code>   <i>(esse comando é para adicionar uma mensagem em seu commit)</i></br>
-<code>git branch -M main</code><i>(esse comando é para renomear a branch, mesmo que já existe. ex.: se o nome da branch antes é <b>master</b>, após esse comando será chamada de <b>main</b> **nome da branch)</i></br>
+<code>git branch -M main</code><i>(esse comando é para renomear a branch, mesmo que já existe. ex.: se o nome da branch antes era <b>master</b>, após esse comando será chamada de <b>main</b> **nome da branch)</i></br>
 <code>git remote add origin git@github.com:seu-usuario/seu-repositorio.git</code> <i>(esse comando estabelece conexão entre o repositótio local e um remoto)</i></br>
 <code>git push -u origin main</code><i>(esse comando é para subir modificação para repositório remoto conectado com o comando anterior **nome da branch)</i></br>
 
