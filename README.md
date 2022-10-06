@@ -12,7 +12,7 @@
 <code>git config --global user.name "seu nome"</code></br>
 <code> git config --global user.email "seu email de cadastro nessa plataforma"</code></br>
 
-- Os comandos abaixo são para realizar um primeiro commit para o seu repositório remoto no GitHub: </br>
+- O bloco de comandos abaixo são para realizar um primeiro commit para o seu repositório remoto no GitHub: </br>
 <code>git init</code>    <i>(esse comando é para iniciar/criar um novo repositório Git)</i></br>
 <code>git add .</code>   <i>(esse comando é para adicionar TODOS os arquivos ao repositório)</i></br>
 <code>git commit -m "mensagem para seu commit"</code>   <i>(esse comando é para adicionar uma mensagem em seu commit)</i></br>
