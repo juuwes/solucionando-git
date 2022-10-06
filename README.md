@@ -30,7 +30,7 @@
 
 - <b> Erro encontrado: </b>  
 <code>! [rejected]        master -> master (fetc h first) </code> <br>
-<code> error: failed to push some refs to 'git@github.com:abc/abc.git'"</code> [...]
+<code> error: failed to push some refs to 'git@github.com:abc/abc.git'</code> [...]
 
 - <b> Solução #1 - Melhor encontrada: </b> <i>Digitar os seguintes comandos abaixo:</i><br> 
 <code> git fetch origin master:tmp </code> ➡️<code> git rebase tmp </code> ➡️<code> git push origin HEAD:master </code> ➡️<code> git branch -D tmp </code>
