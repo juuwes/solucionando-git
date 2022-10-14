@@ -1,4 +1,4 @@
-<h2 align="center"> Manual da Ju sobre <img align="center" alt="git" width="75" img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg"> </h2>
+<h2 align="center"> Manual da @juuwes sobre <img align="center" alt="git" width="75" img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg"> </h2>
 <div align="justify">
 
 <div align="justify">
